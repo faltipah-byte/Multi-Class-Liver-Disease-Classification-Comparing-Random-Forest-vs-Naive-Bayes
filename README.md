@@ -1,20 +1,2 @@
 # Multi-Class-Liver-Disease-Classification-Comparing-Random-Forest-vs-Naive-Bayes
-
-Projek ini bertujuan untuk melakukan klasifikasi penyakit hati (Liver Disease) menggunakan model random forest dan naive bayes sebagai perbandingan model mana yang lebih baik berdasarkan data kondisi kesehatan pasien. Model ini digunakan untuk memprediksi kategori penyakit hati berdasarkan fitur klinis dan gaya hidup.
-
-Dataset yang digunakan merupakan data sekunder dari platfrom Kaggle yang terdiri dari 2 file dataset yang kita gabungkan dengan total data 35.500 observasi. Dataset ini memiliki 33 variabel yang akan kita ambil 10 variabel utama yang bisa mengkondisikan klasifikasi penyakit hati dengan 1 variabel target yang memiliki 5 kategori yaitu:
-1. Healty Liver: Kondisi hati normal
-2. Fatty Liver Disease (NAFLD): Penumpukan lemak non-alkohol
-3. Alcoholic Liver Disease:  Akibat konsumsi alkohol berlebih
-4. General Liver Disease Severity: Gangguan hati umum
-5. Liver Cirrhosis Risk: Resiko kerusakan hati kronis
-
-Metodologi dan tahapan yang dilakukan pada projek ini yaitu:
-1. Explore Data
-2. Preprocessing Data
-3. Pembagian Data Testing dan Training
-4. Penerapan Model Niave Bayes dan Random Fores
-5. Evaluasi Model Matrik Confusion, Accuracy, Precision, Recall, dan F1-Score
-6. Cross Validation
-
-Berdasarkan evaluasi performa model terpilih model Random Forest dengan accuracy sebesar 89,57%.
+Projek ini bertujuan untuk melakukan klasifikasi penyakit hati (Liver Disease) dengan membandingkan performa algoritma Random Forest dan Naive Bayes berdasarkan data kondisi kesehatan pasien. Model yang dibangun digunakan untuk memprediksi kategori penyakit hati berdasarkan fitur klinis dan gaya hidup. Dataset yang digunakan merupakan data sekunder dari platform Kaggle yang terdiri dari dua file yang digabungkan dengan total 35.500 observasi. Dari 33 variabel yang tersedia, dipilih 10 variabel utama sebagai fitur serta 1 variabel target dengan 5 kategori, yaitu Healthy Liver, Fatty Liver Disease (NAFLD), Alcoholic Liver Disease, General Liver Disease Severity, dan Liver Cirrhosis Risk. Proses pengolahan data mencakup eksplorasi data, preprocessing, pembagian data menjadi data latih dan data uji, serta pembangunan dan evaluasi model menggunakan berbagai metrik seperti accuracy, precision, recall, dan F1-score yang diperkuat dengan cross validation. Hasil evaluasi menunjukkan bahwa model Random Forest memiliki performa terbaik dengan tingkat akurasi sebesar 89,57%.
